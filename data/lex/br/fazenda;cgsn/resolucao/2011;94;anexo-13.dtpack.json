@@ -1,0 +1,73 @@
+{
+  "name": "2011;94;anexo-13",
+  "title": "Anexo XIII da Resolução CGSM 94 de 2011",
+  "sources": [
+    {
+      "name":"Projeto TranscrWiki, repositório de dados",
+      "web": "https://github.com/ppKrauss/transcrWiki/blob/master/data/lex/br/fazenda%3Bcgsn/resolucao/2011%3B94%3Banexo-13.csv",
+      "isSource": true
+    },
+    {
+      "name":"Projeto TranscrWiki, metadados da transcrição",
+      "web": "http://www.xmlfusion.org/transcrWiki/lex:Br/fazenda;cgsn/resolucao/2011;94/anexo-13"
+    },
+    {
+      "name":"LexML, referencial multivigente e fontes atualizadas",
+      "web": "http://www.lexml.gov.br/urn/urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2011;94"
+    }
+  ],
+  "licenses": [
+	  {
+		  "id": "odc-pddl",
+		  "name": "Public Domain Dedication and License",
+		  "version": "1.0",
+		  "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+	  }
+	],
+  "resources": [
+    {
+      "name": "2011;94;anexo-13",
+      "path": "2011;94;anexo-13.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "OCUPAÇÃO",
+            "description":"Nome oficial da ocupação MEI",
+            "type": "string"
+          },
+          {
+            "name": "REF-ALT",
+            "description":"Referência sobre alterações, indicando norma que alterou o texto original",
+            "type": "string"
+          },
+          {
+            "name": "CNAE",
+            "description":"Código numérico estruturado do CNAE - Classificação Nacional de Atividades Econômicas",
+            "type": "string"
+          },
+          {
+            "name": "DESCRIÇÃO",
+            "description":"Descrição do processo ou atividade da ocupação",
+            "type": "string"
+          },
+          {
+            "name": "SUBCLASSE CNAE",
+            "description":"Código de sub-classe",
+            "type": "string"
+          },
+          {
+            "name": "ISS",
+            "description":"Indicador sim/não de incidência de ISS sobre a atividade",
+            "type": "string"
+          },
+          {
+            "name": "ICMS",
+            "description":"Indicador sim/não de incidência de ICMS sobre a atividade",
+            "type": "string"
+          }
+	]
+      }
+    }
+  ]
+}
