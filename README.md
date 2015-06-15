@@ -23,5 +23,10 @@ Ambiente Mediawiki mantido com os seguintes namespaces:
 
 ##Preparo de outros documentos
 ...
+## DADOS NESTE REPOSITÓRIO
+A pasta `/data`  segue o padrão *dataset*, de expressar uma tabela através de um arquivo CSV e um arquivo JSON,   http://data.okfn.org/tools/create
 
+Exemplo: 
+* [na TrascrWiki temos a Resolução CGSM 94](http://www.xmlfusion.org/transcrWiki/lex:Br/fazenda;cgsn/resolucao/2011;94), que contém diversos anexos.
+* na pasta [`/data/lex/br/fazenda;cgsn/resolucao`](https://github.com/ppKrauss/transcrWiki/tree/master/data/lex/br/fazenda%3Bcgsn/resolucao) temos dois desses anexos já transcritos para dados.
 
