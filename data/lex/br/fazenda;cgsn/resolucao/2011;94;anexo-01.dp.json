@@ -53,7 +53,7 @@
             "type": "string"
           },
           {
-            "name": "PIS/PASEP",
+            "name": "PIS-PASEP",
             "type": "string"
           },
           {
