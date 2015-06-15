@@ -1,0 +1,71 @@
+{
+  "title": "Anexo I da Resolução CGSN nº 94, de 29 de novembro de 2011",
+  "name": "2011;94;anexo-01",
+  "sources": [
+    {
+      "name":"Projeto TranscrWiki, repositório de dados",
+      "web": "https://github.com/ppKrauss/transcrWiki/blob/master/data/lex/br/fazenda%3Bcgsn/resolucao/2011%3B94%3Banexo-01.csv",
+      "isSource": true
+    },
+    {
+      "name":"Projeto TranscrWiki, metadados da transcrição",
+      "web": "http://www.xmlfusion.org/transcrWiki/lex:Br/fazenda;cgsn/resolucao/2011;94/anexo-01"
+    },
+    {
+      "name":"LexML, referencial multivigente e fontes atualizadas",
+      "web": "http://www.lexml.gov.br/urn/urn:lex:br:ministerio.fazenda;comite.gestor.simples.nacional:resolucao:2011;94"
+    }
+  ],
+  "licenses": [
+	  {
+		  "id": "odc-pddl",
+		  "name": "Public Domain Dedication and License",
+		  "version": "1.0",
+		  "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+	  }
+	],
+  "resources": [
+    {
+      "name": "2011;94;anexo-01",
+      "path": "2011;94;anexo-01.csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Receita Bruta Anual",
+            "description": "Receita Bruta em 12 meses (em R$)",
+            "type": "string"
+          },
+          {
+            "name": "Alíquota",
+            "type": "string"
+          },
+          {
+            "name": "IRPJ",
+            "type": "string"
+          },
+          {
+            "name": "CSLL",
+            "type": "string"
+          },
+          {
+            "name": "COFINS",
+            "type": "string"
+          },
+          {
+            "name": "PIS/PASEP",
+            "type": "string"
+          },
+          {
+            "name": "CPP",
+            "type": "string"
+          },
+          {
+            "name": "ICMS",
+            "type": "string"
+          }
+	     ]
+      }
+    }
+  ]
+}
